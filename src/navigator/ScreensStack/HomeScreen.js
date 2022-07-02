@@ -2,13 +2,17 @@
 import React from 'react';
 /* importamos los componentes de react */
 import {Text,View} from 'react-native';
+/* Importamso NativeBase */
+import { NativeBaseProvider, Box, Text } from "native-base";
 
 
 const  HomeScreen = () =>{
     return(
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Inicio xD soy un conponente  desde la carpeta ScreensStack</Text>
-      </View>
+      <NativeBaseProvider>
+      <Box flex={1} bg="#fff" alignItems="center" justifyContent="center">
+        <Text>Open up App.js to start working on your app!</Text>
+      </Box>
+    </NativeBaseProvider>
     );
 }
 
