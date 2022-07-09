@@ -1,7 +1,7 @@
 /* importar react  */
 import React from 'react';
 /* importamos los componentes de react */
-import {Text,View} from 'react-native';
+import {View} from 'react-native';
 /* Importamso NativeBase */
 import { NativeBaseProvider, Box, Text } from "native-base";
 

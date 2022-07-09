@@ -7,7 +7,7 @@ import {Text,View} from 'react-native';
 const  DetailsScreen = () =>{
     return(
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Setings: soy un conponente desde detailsScreen</Text>
+        <Text>Settings: soy un conponente desde detailsScreen</Text>
       </View>
     );
 }
